@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    /*background: #ddd;*/
+    /*font-size: 50px;*/
+}
+
+.mi32gb {
+    height: 40%;
+    width: 100%;
+}
+
+.mi32gb > div {
+    width: 49.8%;
+    height: 100%;
+}
+
+.mi32l {
+    float: left;
+    background-image: url("images/xmad_15341615387994_FvoXt.jpg");
+    background-size: 100% 100%;
+}
+
+.mi32r {
+    float: right;
+    position: relative;
+}
+
+.mi32r > div {
+    width: 100%;
+    height: 49.5%;
+    background-image: url("images/xmad_15310599213966_LKWPo.jpg");
+    background-size: 100% 100%;
+}
+
+.mi32r div:nth-child(1) {
+    position: absolute;
+    bottom: 0;
+    background-image: url("images/xmad_15345015137799_GplOQ.jpg");
+}
+
+.mi6ai {
+    height: 20%;
+    width: 100%;
+    background-image: url("images/xmad_15345684990344_vZJYf.jpg");
+    background-size: 100% 100%;
+    margin-top: 1%;
+}
+
+.mi64gb {
+    height: 25%;
+    width: 100%;
+    margin-top: 1%;
+    background: #fff;
+}
+
+.mibuy {
+    height: 20%;
+    width: 100%;
+}
+
+.mibuy > div:nth-child(1) {
+    margin: 1% 0 0 1%;
+    font: 0.3rem "华文楷体";
+    float: left;
+    color: #ffac13;
+}
+
+.mibuy .mibuyr {
+    float: right;
+    font-size: 0.28rem;
+    width: 35%;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.mibuyr span {
+    font-size: 0.25rem;
+    line-height: 0.45rem;
+}
+.mi128gb {
+    height: 80%;
+    overflow-x:auto;
+}
+.mi128gb ul {
+    width: 300%;
+    height: 100%;
+    list-style: none;
+}
+.mi128gb ul li {
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.mi128gb ul li a {
+    width: 100%;
+    height: 70%;
+    display: block;
+    position: relative;
+}
+.mi128gb ul li p {
+    height: 30%;
+    position: relative;
+    text-align: center;
+    font-size: 0.2rem;
+    color: orangered
+}
+.mi128gb ul li p del {
+    font-size: 0.19rem;
+    color: #ccc;
+}
+.mi128gb ul li a img {
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+    height: 100%;
+}
